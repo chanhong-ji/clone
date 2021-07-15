@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>You Are Awesome!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="work-6.css" />
+  </head>
+  <body>
+    <!-- 노란색 바 -->
+    <header>
+      <nav class="status-bar">
+        <div class="status-bar__column"><i class="fas fa-list-ul"></i></div>
+        <div class="status-bar__column">library</div>
+        <div class="status-bar__column">
+          <i class="fas fa-shopping-basket"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- 검색 창 -->
+    <section class="search-bar">
+      <input id="search" type="text" placeholder="Search books..." />
+      <label for="search"><i class="fas fa-search"></i></label>
+    </section>
+
+    <main>
+      <!-- 첫번째 섹션, main-->
+      <section class="today-book">
+        <h2 class="today-book__title">Today's Book</h2>
+        <div class="today-book__box">
+          <img src="1.jpg" class="today-book__cover"></img>
+          <div class="today-book__data">
+            <h3>Free To Focus</h3>
+            <h5>Michael Hyatt</h5>
+            <div class="today-book__rate">
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+            </div>
+            <div class="today-book__genre">
+              <h6>Development</h6>
+              <h6>Leadership</h6>
+            </div>
+            <div class="today-book__bookmark">
+              <button><i class="fas fa-bookmark"></i></button>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 두번째 섹션 -->
+      <section class="top-books">
+        <h2 class="top-books__title">Top Books Of The Year</h2>
+        <ul class="top-books__list">
+          <li class="top-books__book">
+            <img src="2.jpg" class="top-books__cover"></img>
+            <div class="top-books__rate">
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+            </div>
+          </li>
+          <li class="top-books__book">
+            <img src="3.jpg" class="top-books__cover"></img>
+            <div class="top-books__rate">
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+            </div>
+          </li>
+          <li class="top-books__book">
+            <img src="4.jpg" class="top-books__cover"></img>
+            <div class="top-books__rate">
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+            </div>
+          </li>
+          <li class="top-books__book">
+            <img src="5.jpg" class="top-books__cover"></img>
+            <div class="top-books__rate">
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+              <i class="fas fa-star fa"></i>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 세번째 섹션 -->
+      <section class="best-book">
+        <h2 class="best-book__title">My Best Book</h2>
+        <div class="best-book__box">
+          <img src="6.jpg" class="best-book__cover"></img>
+          <div class="best-book__data">
+            <h3>Poly Math</h3>
+            <h4>Waqas Ahmed</h4>
+            <h6>Modern American Science fiction writher, screenwriter...</h6>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
